@@ -1,7 +1,7 @@
 {
   "extends": ["airbnb", "airbnb-typescript"],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./car-race-app/tsconfig.json"
   },
   "settings": {
     "react": {
@@ -11,6 +11,16 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "react/react-in-jsx-scope": "off",
-    "react/jsx-one-expression-per-line": "off"
+    "react/jsx-one-expression-per-line": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
   }
 }

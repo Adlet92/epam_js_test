@@ -1,0 +1,32 @@
+.header__list {
+  list-style: none;
+  padding: 0;
+}
+
+.header__item {
+  display: block;
+  margin-bottom: 2%;
+}
+
+.header__link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  color: black;
+}
+
+.header__link--garage {
+  border-color: lightgreen;
+  color: lightgreen;
+}
+
+.header__link--winners {
+  border-color: pink;
+  color: pink;
+}
+.icon {
+  width: 3%;
+  vertical-align: middle;
+  margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+
+.action-button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.lightgreen {
+  border-color: lightgreen;
+  color: lightgreen;
+}
+
+.purple {
+  border-color: purple !important;;
+  color: purple !important;;
+}
