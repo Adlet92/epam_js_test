@@ -1,9 +1,10 @@
 .action-buttons {
   display: flex;
   align-items: center;
+  margin-top: 5%;
 }
 
-.action-button {
+/* .action-button {
   margin-right: 10px;
   padding: 8px 16px;
   border-radius: 6px;
@@ -12,6 +13,13 @@
   border-color: lightgreen;
   color: lightgreen;
   cursor: pointer;
+} */
+
+.create-form,
+.update-form,
+.generate-car-form {
+  display: flex;
+  margin-left: 10%;
 }
 
 .car-input {
@@ -33,5 +41,6 @@ input[type="color"] {
   height: 30px;
   padding: 0;
   border: none;
-  border-radius: 50%;
+  border-radius: 4px;
 }
+
